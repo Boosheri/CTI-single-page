@@ -1,14 +1,13 @@
-body{
+.flex-parent{}
 
-}
-.flex-parent{
+.header{}
 
-}
+.logo{}
 
-.header{
-  
-}
+.contact{}
 
-title-image{
+.title-image{}
 
-}
+.about{}
+
+.list{}
