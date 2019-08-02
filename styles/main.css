@@ -1,6 +1,35 @@
-.flex-parent{}
+@import url("reset.css");
 
-.header{}
+body {
+  min-height: 100vh;
+  display: block;
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.flex-parent{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header{
+/* display: flex; */
+/* justify-content: space-between; */
+}
 
 .logo{}
 
