@@ -14,11 +14,36 @@ html {
   box-sizing: inherit;
 }
 
+a {
+  text-decoration-line: none;
+}
 a:hover {
   text-decoration: underline;
 }
 
-.flex-parent{
+h1,
+h2,
+h3,
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.15em;}
+
+h1{
+  font-size: 45px;
+  padding: 1em 4em;
+}
+h2{
+  font-size: 32px;
+}
+h3{
+  font-size: 20px;
+}
+p{
+  font-size: 15px;
+}
+
+.flex-parent {
+  background-color: white;
   display: flex;
   text-align: center;
   align-items: center;
@@ -26,17 +51,35 @@ a:hover {
   flex-direction: column;
 }
 
-.header{
-/* display: flex; */
-/* justify-content: space-between; */
+header {
+  /* background-color: pink; */
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+ align-items: center;
+  height: 114px;
 }
 
-.logo{}
+.logo {
+  background-color: white;
+  height: 100px;
+  width: 320px;
+}
 
-.contact{}
+.contact {
+  /* background-color: lightblue; */
+  text-align: end;
+  padding-right: 1em;
+}
 
-.title-image{}
+.title-image {
+  height: 270px;
+}
 
-.about{}
+.about {
+  height: 382px;
+}
 
-.list{}
+.list {
+  height: 276px;
+}
