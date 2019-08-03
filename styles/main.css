@@ -39,6 +39,7 @@ h1 {
 
 h2 {
   font-size: 32px;
+  padding-bottom: 1em;
 }
 
 h3 {
@@ -47,7 +48,7 @@ h3 {
 
 p,
 li {
-  font-size: 15px;
+  font-size: 16px;
   color: rgb(67, 67, 67);
 }
 
@@ -69,7 +70,8 @@ header {
   justify-content: space-between;
   width: 100%;
   align-items: center;
-  height: 115px;
+  background-color: #ececec;
+  height: 120px;
 }
 
 .logo {
@@ -80,7 +82,10 @@ header {
 
 .contact {
   text-align: end;
-  padding-right: 1em;
+}
+
+.contact p {
+  margin: 0.5em 1em 0.5em 0em;
 }
 
 .title-image {
@@ -107,13 +112,9 @@ header {
   border-bottom: solid 1px lightgrey;
 }
 
-.about h2 {
-  padding-bottom: 1em;
-}
-
 .about h3 {
   text-align: left;
-  padding: 0em 5em;
+  padding: 0em 3em;
   color: rgb(67, 67, 67);
 }
 
@@ -121,20 +122,16 @@ header {
   padding: 2em 2em;
   width: 100%;
   padding-bottom: 8vh;
+  display: block;
 }
 
-.services p {
-  text-align: left;
-  font-weight: 600;
-  padding-bottom: 2em;
-}
-
-ul {
+.services h2 {
+  text-align: centre;
 }
 
 li {
-  display: inline;
-  margin: 0em 1em;
+  margin: 1em 1em;
+  font-weight: 600;
 }
 
 footer p {
@@ -164,13 +161,17 @@ footer p {
   }
 }
 
-@media (min-width: 500px) {
+@media (min-width: 600px) {
   .logo {
     width: 320px;
   }
 
   a {
     font-size: 15px;
+  }
+
+  .about h3 {
+    padding: 0em 5em;
   }
 }
 
