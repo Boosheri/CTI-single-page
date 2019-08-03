@@ -24,22 +24,28 @@ a:hover {
 h1,
 h2,
 h3,
-p{
+p,
+a,
+li {
   font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.15em;}
-
-h1{
-  font-size: 45px;
-  padding: 1em 4em;
+  line-height: 1.15em;
 }
-h2{
+
+h1 {
+  font-size: 45px;
+}
+h2 {
   font-size: 32px;
 }
-h3{
+h3 {
   font-size: 20px;
 }
-p{
+p, li{
   font-size: 15px;
+}
+
+a {
+  font-size: 10px;
 }
 
 .flex-parent {
@@ -56,14 +62,14 @@ header {
   display: flex;
   justify-content: space-between;
   width: 100%;
- align-items: center;
-  height: 114px;
+  align-items: center;
+  height: 115px;
 }
 
 .logo {
   background-color: white;
   height: 100px;
-  width: 320px;
+  width: 180px;
 }
 
 .contact {
@@ -73,7 +79,21 @@ header {
 }
 
 .title-image {
-  height: 270px;
+  background-image: url(/assets/building_banner.jpg);
+  background-color: rgb(63, 63, 63);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 1.5em;
+}
+.title-image a {
+  color: white;
+  padding-bottom: 1vw;
+}
+
+.title-image h1 {
+  padding: 1em 1em;
+  color: white;
 }
 
 .about {
@@ -82,4 +102,43 @@ header {
 
 .list {
   height: 276px;
+}
+
+@media (min-width: 350px) {
+  .logo {
+    width: 220px;
+  }
+  a {
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 350px) {
+  .logo {
+    width: 220px;
+  }
+}
+
+@media (min-width: 400px) {
+  .logo {
+    width: 270px;
+  }
+}
+@media (min-width: 500px) {
+  .logo {
+    width: 320px;
+  }
+  a {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 850px) {
+  .title-image h1 {
+    padding: 1em 5em;
+  }
+
+  p {
+    font-size: 15px;
+  }
 }
