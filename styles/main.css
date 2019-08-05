@@ -30,7 +30,7 @@ p,
 a,
 li {
   font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.15em;
+  line-height: 1.2em;
 }
 
 h1 {
@@ -39,7 +39,7 @@ h1 {
 
 h2 {
   font-size: 32px;
-  padding-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 h3 {
@@ -99,12 +99,13 @@ header {
 
 .title-image a {
   color: white;
-  padding-bottom: 1vw;
+  margin-bottom: 2em;
 }
 
 .title-image h1 {
-  padding: 1em 1em;
+  margin: 1em 1em;
   color: white;
+  
 }
 
 .about {
@@ -114,29 +115,30 @@ header {
 
 .about h3 {
   text-align: left;
-  padding: 0em 3em;
+  margin: 0em 3em;
   color: rgb(67, 67, 67);
 }
 
 .services {
-  padding: 2em 2em;
+  padding: 4em 2em;
   width: 100%;
   padding-bottom: 8vh;
   display: block;
 }
 
-.services h2 {
-  text-align: centre;
+ul {
+  text-align: center;
+  list-style: inside;
 }
 
 li {
-  margin: 1em 1em;
+  margin-top: 1em;
   font-weight: 600;
 }
 
 footer p {
   font-size: 10px;
-  padding-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 @media (min-width: 350px) {
@@ -171,13 +173,13 @@ footer p {
   }
 
   .about h3 {
-    padding: 0em 5em;
+    margin: 0em 5em;
   }
 }
 
 @media (min-width: 850px) {
   .title-image h1 {
-    padding: 1em 5em;
+    margin: 1em 5em;
   }
 
   p {
