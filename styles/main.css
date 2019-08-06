@@ -78,6 +78,7 @@ header {
   background-color: white;
   height: 100px;
   width: 180px;
+  margin-left: 0.5em;
 }
 
 .contact {
@@ -95,6 +96,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 1.5em;
+  width: 100%;
 }
 
 .title-image a {
@@ -105,7 +107,6 @@ header {
 .title-image h1 {
   margin: 1em 1em;
   color: white;
-  
 }
 
 .about {
