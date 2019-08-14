@@ -74,8 +74,11 @@ header {
   height: 120px;
 }
 
+i {
+  font-size: 0.8em;
+}
+
 .logo {
-  background-color: white;
   height: 100px;
   width: 180px;
   margin-left: 0.5em;
@@ -86,7 +89,7 @@ header {
 }
 
 .contact p {
-  margin: 0.5em 1em 0.5em 0em;
+  margin: 0.5em;
 }
 
 .title-image {
@@ -144,7 +147,7 @@ footer p {
 
 @media (min-width: 350px) {
   .logo {
-    width: 220px;
+    width: 210px;
   }
 
   a {
@@ -152,21 +155,19 @@ footer p {
   }
 }
 
-@media (min-width: 350px) {
-  .logo {
-    width: 220px;
-  }
-}
-
 @media (min-width: 400px) {
   .logo {
-    width: 270px;
+    width: 260px;
   }
 }
 
 @media (min-width: 600px) {
   .logo {
     width: 320px;
+  }
+
+  i {
+    font-size: 1em;
   }
 
   a {
